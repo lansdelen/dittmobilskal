@@ -1,0 +1,40 @@
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+body {
+}
+.wrapper {
+	max-width: 950px;
+	margin: 0 auto;
+}
+.top-menu {
+	font-size: 0.7em;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ccc;
+	font-family: 'Raleway', sans-serif;
+	padding-top: 10px;
+	background:#434343;
+	height: 20px;
+}
+.top-menu a {
+	color: #ccc;
+	text-decoration: none;
+}
+.top-menu a:hover {
+	color: #fff;
+}
+.top-menu .slogan {
+	float: left;
+}
+.top-menu ul {
+	float: right;
+}
+.top-menu li {
+	margin-left: 5px;
+	padding-left: 10px;
+	border-left: solid 1px #ccc;
+	display: inline-block;
+}
+.top-menu li:first-child {
+	border: 0;
+}
